@@ -34,9 +34,10 @@ import {
     },
   ];
 
-  const technologies = [
+  const languages = [
     {
-      name: "C++",
+      name: "JavaScript",
+      icon: javascript,
     },
     {
       name: "HTML 5",
@@ -47,20 +48,55 @@ import {
       icon: css,
     },
     {
-      name: "JavaScript",
-      icon: javascript,
+      name: "Python",
     },
+    {
+      name: "C++",
+    },
+    {
+      name: "Dart",
+    },
+  ];
+
+  const fwAndLib = [
     {
       name: "React JS",
       icon: reactjs,
+    },
+    {
+      name: "Next JS", 
+    },
+    {
+      name: "Express JS", 
     },
     {
       name: "Tailwind CSS",
       icon: tailwind,
     },
     {
+      name: "Flask",
+    },
+    {
+      name: "Qt",
+    },
+  ];
+
+  const technologies = [
+    {
+      name: "Supabase",
+    },
+    {
+      name: "Firebase",
+    },
+    {
+      name: "MongoDB",
+    },
+    {
       name: "Node JS",
       icon: nodejs,
+    },
+    {
+      name: "Flutter"
     },
   ];
   
@@ -76,17 +112,78 @@ import {
     },
     {
       title: "Web Developer",
-      company_name: "ACM Club",
+      company_name: "ACM@UCR",
       date: "April 2024 - Present",
       points: [
         "Utilized React, Next.js, and Tailwind CSS.",
-        "Collaborating with other students and held weekly meetings",
-        "Designed the modal for the events.",
+        "Collaborated with other developers and held weekly sprint meetings",
+        "Designed and implemented the calendar modal and event card, and handled page responsiveness.",
       ],
     },
   ];
 
   const projects = [
+    {
+      name: "SnapScene",
+      description:
+        "A social media website with image posts.",
+      points: [
+        "Utilized Firebase to store and manage user-uploaded images, improving post load time.",
+        "Implemented comment section and posts scrolling and managed post data and user interactions.",
+        "Handled routing and navigation enabling seamless transitions between pages and dynamic rendering of posts.",
+      ],
+      tags: [
+        "MongoDB", 
+        "Firebase", 
+        "React", 
+        "Javascript", 
+        "HTML", 
+        "CSS",
+      ],
+    },
+    {
+      name: "DripTec",
+      description: "An e-commerce website that sells clothing.",
+      points: [
+        "Integrated Supabase for robust and scalable backend data management.",
+        "Implemented sorting functionality to improve user experience by allowing customized product views.",
+        "Developed aesthetically pleasing category page and product cards to enhance user engagement and satisfaction.",
+      ],
+      tags: [
+        "Supabase", 
+        "React", 
+        "Javascript", 
+        "HTML", 
+        "CSS",
+      ],
+    },
+    {
+      name: "Bookshelf",
+      description: "A personal library website that maintains a list of books information.",
+      points: [
+        "Created a RESTful API that follows the CRUD functions model.",
+        "Implemented asynchronous data fetching and dynamic DOM updates.",
+        "Developed modal pop-ups for book editing and deletion with real-time updates to the book list.",
+      ],
+      tags: [
+        "Javascript", 
+        "HTML", 
+        "CSS"
+      ]
+    },
+    {
+      name: "Big News Web",
+      description: "A news website displaying top trending articles.",
+      points: [
+        "Integrated NYTimes API to fetch and display the latest trending articles.",
+        "Developed user interaction features to handle sorting preferences.",
+      ],
+      tags: [
+        "Javascript", 
+        "HTML", 
+        "CSS",
+      ],
+    },
     {
       name: "To-do List",
       description:
@@ -116,4 +213,4 @@ import {
     },
   ];
   
-  export { courses, technologies, experiences, projects };
+  export { courses, languages, fwAndLib, technologies, experiences, projects };

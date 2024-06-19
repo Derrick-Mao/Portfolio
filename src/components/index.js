@@ -4,7 +4,7 @@ import About from './About';
 import Education from './Education';
 import Tech from './Tech';
 import Experience from './Experience';
-import Activity from './Activity';
+import Projects from './Projects';
 import Contact from './Contact';
 
 export {
@@ -14,6 +14,6 @@ export {
   Education,
   Tech,
   Experience,
-  Activity,
+  Projects,
   Contact,
 }

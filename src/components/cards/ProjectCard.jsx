@@ -1,6 +1,6 @@
 const ProjectCard = ({ project }) => {
   return (
-    <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white mr-10">
+    <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white mr-10 mb-10">
       <div className="px-6 py-4">
         <div className="text-black-100 font-bold text-xl mb-2">
           {project.name}

@@ -21,7 +21,7 @@ const Navbar = () => {
           <p className="text-white text-[18px] font-medium">Derrick Mao</p>
         </Link>
         <ul className="list-none flex flex-row gap-10">
-          <li>
+          {/* <li>
             <Link
               to="/"
               className="flex items-center gap-2"
@@ -33,8 +33,8 @@ const Navbar = () => {
                 About
               </p>
             </Link>
-          </li>
-          <li>
+          </li> */}
+          {/* <li>
             <Link
               to="/"
               className="flex items-center gap-2"
@@ -46,13 +46,13 @@ const Navbar = () => {
                 Work
               </p>
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link
               to="/"
               className="flex items-center gap-2"
               onClick={() => {
-                window.scrollTo(0, 2200);
+                window.scrollTo(0, 10000);
               }}
             >
               <p className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer">

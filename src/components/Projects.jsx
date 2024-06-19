@@ -4,11 +4,11 @@ import ProjectCard from "./cards/ProjectCard";
 import { projects } from "../constants";
 import { styles } from "../styles";
 
-const Activity = () => {
+const Projects = () => {
   return (
-    <div className="ml-20 mb-20">
-      <h2 className={`${styles.sectionHeadText}`}>Activity</h2>
-      <div className="flex flex-row items-start">
+    <div className="ml-20 mb-20 mr-10">
+      <h2 className={`${styles.sectionHeadText}`}>Projects</h2>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {projects.map((project, index) => (
           <ProjectCard project={project} key={index} />
         ))}
@@ -17,4 +17,4 @@ const Activity = () => {
   );
 };
 
-export default Activity;
+export default Projects;

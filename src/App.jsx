@@ -1,12 +1,12 @@
 import { BrowserRouter } from "react-router-dom";
 import {
   About,
-  Activity,
   Contact,
   Education,
   Experience,
   Hero,
   Navbar,
+  Projects,
 } from "./components";
 
 const App = () => {
@@ -17,11 +17,13 @@ const App = () => {
           <Navbar />
           <Hero />
         </div>
-        <About />
         <Education />
+        <About />
         <Experience />
-        <Activity />
-        <Contact />
+        <Projects />
+        <div className="flex justify-center">
+          <Contact />
+        </div>
       </div>
     </BrowserRouter>
   );
