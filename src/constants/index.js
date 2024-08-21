@@ -36,8 +36,14 @@ import {
 
   const languages = [
     {
+      name: "C++",
+    },
+    {
       name: "JavaScript",
       icon: javascript,
+    },
+    {
+      name: "TypeScript",
     },
     {
       name: "HTML 5",
@@ -46,12 +52,6 @@ import {
     {
       name: "CSS 3",
       icon: css,
-    },
-    {
-      name: "Python",
-    },
-    {
-      name: "C++",
     },
     {
       name: "Dart",
