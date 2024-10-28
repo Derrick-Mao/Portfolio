@@ -106,8 +106,9 @@ import {
       company_name: "Coding Mind Academy",
       date: "Jan 2024 - Present",
       points: [
-        "Tutored students the fundamental basics in programming with C++.",
-        "Adjusted and executed lesson plans to fit to individual student's learning preference.",
+        "Hosted classes on the fundamentals of programming in C++ and Java.",
+        "Instructed students on object-oriented programming, enhancing their ability to design modular and reusable code.",
+        "Improved student comprehension by adjusting corporate curriculum to fit individual learning preference.",
       ],
     },
     {
@@ -115,9 +116,9 @@ import {
       company_name: "ACM@UCR",
       date: "April 2024 - Present",
       points: [
-        "Utilized React, Next.js, and Tailwind CSS.",
-        "Collaborated with other developers and held weekly sprint meetings",
-        "Designed and implemented the calendar modal and event card, and handled page responsiveness.",
+        "Developed websites using React, Next.js, Tailwind CSS, and TypeScript with teams of 8+ developers.",
+        "Implemented features such as the calendar modal and event card, and ensured full page responsiveness.",
+        "Leveraged Cypress and browser console tools to identify and resolve code issues.",
       ],
     },
   ];
