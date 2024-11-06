@@ -129,9 +129,9 @@ import {
       description:
         "A social media website with image posts.",
       points: [
-        "Utilized Firebase to store and manage user-uploaded images, improving post load time.",
-        "Implemented comment section and posts scrolling and managed post data and user interactions.",
-        "Handled routing and navigation enabling seamless transitions between pages and dynamic rendering of posts.",
+        "Improved image load time by 40% by utilizing MongoDB with Firebase to store and manage user-uploaded images.",
+        "Implemented comment section and posts scrolling to enhance user interaction, utilizing efficient data management.",
+        "Created RESTful API to manage user data for efficient data handling by utilizing Express.js and MongoDB.",
       ],
       tags: [
         "MongoDB", 
@@ -146,9 +146,8 @@ import {
       name: "DripTec",
       description: "An e-commerce website that sells clothing.",
       points: [
-        "Integrated Supabase for robust and scalable backend data management.",
-        "Implemented sorting functionality to improve user experience by allowing customized product views.",
-        "Developed aesthetically pleasing category page and product cards to enhance user engagement and satisfaction.",
+        "Implemented filtering and sorting, improving clothing access by utilizing Supabase’s PostgreSQL database and APIs.",
+        "Developed eye-catching category page to enhance user engagement by following proper design practices.",
       ],
       tags: [
         "Supabase", 
@@ -176,8 +175,8 @@ import {
       name: "Big News Web",
       description: "A news website displaying top trending articles.",
       points: [
-        "Integrated NYTimes API to fetch and display the latest trending articles.",
-        "Developed user interaction features to handle sorting preferences.",
+        "Integrated NYTimes API to fetch and display articles, using async functions and fetch for real-time data retrieval.",
+        "Implemented a dynamic filter system to sort and filter articles by popularity and time, using JS to handle input.",
       ],
       tags: [
         "Javascript", 
