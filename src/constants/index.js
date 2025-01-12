@@ -24,7 +24,19 @@ import {
   
   const courses = [
     {
+      class: "Machine Learning",
+    },
+    {
+      class: "Artificial Intelligence",
+    },
+    { 
+      class: "Database Management Systems",
+    },
+    {
       class: "Data Structures & Algorithms",
+    },
+    {
+      class: "Algorithm Engineering",
     },
     {
       class: "Software Construction",
@@ -46,15 +58,21 @@ import {
       name: "TypeScript",
     },
     {
+      name: "Python",
+    },
+    {
+      name: "Java",
+    },
+    {
+      name: "SQL",
+    },
+    {
       name: "HTML 5",
       icon: html,
     },
     {
       name: "CSS 3",
       icon: css,
-    },
-    {
-      name: "Dart",
     },
   ];
 
@@ -83,13 +101,16 @@ import {
 
   const technologies = [
     {
-      name: "Supabase",
+      name: "AWS",
+    },
+    {
+      name: "MongoDB",
     },
     {
       name: "Firebase",
     },
     {
-      name: "MongoDB",
+      name: "Supabase",
     },
     {
       name: "Node JS",
@@ -129,7 +150,7 @@ import {
       description:
         "A social media website with image posts.",
       points: [
-        "Improved image load time by 40% by utilizing MongoDB with Firebase to store and manage user-uploaded images.",
+        "Improved image load time by 20% by utilizing MongoDB with Firebase to store and manage user-uploaded images.",
         "Implemented comment section and posts scrolling to enhance user interaction, utilizing efficient data management.",
         "Created RESTful API to manage user data for efficient data handling by utilizing Express.js and MongoDB.",
       ],
@@ -138,6 +159,23 @@ import {
         "Firebase", 
         "React", 
         "Javascript", 
+        "HTML", 
+        "CSS",
+      ],
+    },
+    {
+      name: "Omnis Gallery",
+      description:
+        "An art portfolio that showcases drawings.",
+      points: [
+        "Hosted with AWS Amplify, tailored IAM and bucket policies for admin and users to ensure data security.",
+        "Set up login with Amplify Auth powered by Cognito.",
+        "Utilized S3 bucket storage to upload and display of media files.",
+      ],
+      tags: [
+        "AWS", 
+        "NextJS", 
+        "TypeScript", 
         "HTML", 
         "CSS",
       ],
@@ -158,30 +196,15 @@ import {
       ],
     },
     {
-      name: "Bookshelf",
-      description: "A personal library website that maintains a list of books information.",
+      name: "MotionMint",
+      description: "An expense tracker mobile application",
       points: [
-        "Created a RESTful API that follows the CRUD functions model.",
-        "Implemented asynchronous data fetching and dynamic DOM updates.",
-        "Developed modal pop-ups for book editing and deletion with real-time updates to the book list.",
+        "Implemented a user-friendly interface for efficient understanding of financial information and expense managing.",
+        "Created bar graph and expense list for visual and read learners, utilizing data visualization skills and clear formatting.",
       ],
       tags: [
-        "Javascript", 
-        "HTML", 
-        "CSS"
-      ]
-    },
-    {
-      name: "Big News Web",
-      description: "A news website displaying top trending articles.",
-      points: [
-        "Integrated NYTimes API to fetch and display articles, using async functions and fetch for real-time data retrieval.",
-        "Implemented a dynamic filter system to sort and filter articles by popularity and time, using JS to handle input.",
-      ],
-      tags: [
-        "Javascript", 
-        "HTML", 
-        "CSS",
+        "Flutter", 
+        "Dart",
       ],
     },
     {

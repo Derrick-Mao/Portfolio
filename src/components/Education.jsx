@@ -9,7 +9,7 @@ const Education = () => {
       <h2 className={`${styles.sectionHeadText}`}>Education</h2>
       <h4 className="text-white text-[24px] font-bold">Major</h4>
       <p className={`${styles.sectionSubText} mt-3`}>
-        Bachelor of Science in Computer Science | October 2023 - present
+        Bachelor of Science in Computer Science | Expected Graduation, Dec 2025
       </p>
       <br />
       <div className="flex flex-row items-start justify-between">
