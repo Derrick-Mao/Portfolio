@@ -18,7 +18,6 @@ const App = () => {
           <Hero />
         </div>
         <Education />
-        <About />
         <Experience />
         <Projects />
         <div className="flex justify-center">

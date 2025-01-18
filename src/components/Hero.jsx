@@ -20,7 +20,7 @@ const Hero = () => {
             Hi, I'm <span className="text-[#9467f6]">Derrick</span>
           </h1>
           <p className={`${styles.heroSubText} mr-2`}>
-            Hi, it's good to meet you! My name is Derrick and I am a senior student studying CS at UCR.
+            Hi, it's good to meet you! My name is Derrick and I am a senior student studying CS at UCR. Currently I am on the software development team for ACM Ignite and ACM Forge. I am looking for internships in software engineering.
           </p>
         </div>
       </div>
