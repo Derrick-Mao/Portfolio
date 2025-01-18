@@ -1,5 +1,6 @@
 import dmlogo from "./dmlogo.svg";
 import pfp from "./pfp.jpg";
+import pfpTree from "./pfpTree.jpg";
 
 import logo from "./logo.svg";
 import backend from "./backend.png";
@@ -37,6 +38,7 @@ import tripguide from "./tripguide.png";
 export {
   dmlogo,
   pfp,
+  pfpTree,
   
   logo,
   backend,
